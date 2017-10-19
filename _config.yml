@@ -10,11 +10,12 @@ title: panzone's blog
 #email:
 description: > # this means to ignore newlines until "baseurl:"
   Computer scientist and software developer,
-  enjoys solving problems and eating pizza. 
+  enjoys solving problems and eating pizza.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://panzone.github.io" # the base hostname & protocol for your site
 twitter_username: panzone91
 github_username: panzone
+linkedin_username: afiuorio
 
 # Build settings
 markdown: kramdown

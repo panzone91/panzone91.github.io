@@ -12,4 +12,6 @@ I'm a MSc. student in Computer Science. I mainly work on programming languages d
 
 * In 2016 I've participated to the [Google Summer Of Code](https://summerofcode.withgoogle.com/projects/#6738560711393280) under the [Chapel programming language](http://chapel.cray.com), working on several improvements on the language's compiler and runtime.
 
+* In 2017 I've participated to the Google Summer Of Code as a mentor for the Chapel programming language.
+
 * Currently I'm collaborating with the [Cryptography and Coding Laboratory](http://www.club.di.unimi.it), working on key derivation functions and video streaming encryption.
