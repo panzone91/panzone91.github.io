@@ -51,3 +51,20 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+.column {
+    float: left;
+}
+
+.left {
+  width: 33%;
+}
+
+.right {
+  width: 67%;
+}
+
+img.resize {
+  max-width:65%;
+  max-height:65%;
+}

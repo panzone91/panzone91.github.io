@@ -4,19 +4,35 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts limit:3%}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        {{ post.excerpt }}
-      </li>
-    {% endfor %}
-  </ul>
+<!--  <h1 class="page-heading">Work in progress</h1>-->
+<p></p>
+<p>
+<div class="row">
+  <div class="column left">
+<center> <h1 class="page-heading">&zwnj;</h1> <img class="resize" src="/assets/5716264.jpg"></center>
+  </div>
+  <div class="column right">
+    <h1 class="page-heading">Andrea Francesco Iuorio</h1>
+    <p align="justify">I'm a MSc. student in Computer Science. I mainly work on programming languages development and
+    cryptography but I'm an "all around" computer scientist and developer. I like the concept of solving
+    problems in an efficient way using a machine and I'm quite interested in "low-level development":
+    computers are complex machines and I want to handle the "complex" part for making them easier to use.</p>
+  </div>
 </div>
-  <a href="posts.html">See all posts</a>
+</p>
+<p>
+ Quick resume:
+  <ul>
+    <li>In 2014 I've participated to the <a href="https://www.google-melange.com/gsoc/project/details/google/gsoc2014/panzone/5717271485874176">Google Summer of Code</a>
+    under the <a href="http://www.mono-project.com/community/google-summer-of-code/">Mono Project</a>, working on SGen, their garbage collector.</li>
+
+    <li>In 2015 I've obtained my BSc. in Computer Science with the thesis <a href="/assets/thesis_afi_bsc.pdf">Portable and modular exceptions in Neverlang2</a>.</li>
+
+    <li>In 2016 I've participated to the <a href="https://summerofcode.withgoogle.com/projects/#6738560711393280">Google Summer of Code</a> under the <a href="http://chapel.cray.com">Chapel programming language</a>, working on several improvements on the language's compiler and runtime.</li>
+
+    <li>In 2017 I've participated to the Google Summer Of Code as a mentor for the Chapel programming language.</li>
+
+    <li>Currently I'm collaborating with the <a href="http://www.club.di.unimi.it">Cryptography and Coding Laboratory</a>, working on key derivation functions and video streaming encryption.</li>
+  </ul>
+</p>
 </div>
