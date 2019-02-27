@@ -4,8 +4,8 @@ title: GPG
 permalink: /gpg/
 ---
 
-This is the fingerprint of my current [GPG public key](http://pgp.mit.edu/pks/lookup?op=get&search=0x756AC9B2A95C6A9B):
+This is the fingerprint of my current [GPG public key](http://keys.gnupg.net/pks/lookup?op=get&search=0x68395C899CF3A112):
 
 {% highlight shell %}
-A612 2AA3 23BB 00B6 033F  46BB 756A C9B2 A95C 6A9B
+6E37 8640 3EBE A528 B94E  B2FF 6839 5C89 9CF3 A112
 {% endhighlight %}

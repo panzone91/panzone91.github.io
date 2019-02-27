@@ -6,6 +6,10 @@ permalink: /talks/
 
 This page contains the materials (slides, source codes) I've used during my lectures and seminaries.
 
+* **[(02/11/2019, English) Understanding Optimizations and Measuring Performances of PBKDF2](/assets/talks/aiuorio_widecom19.pdf)**
+
+Conference presentation of the paper with the same title, exploring the security capabilities of PBKDF2 in the current landscape.
+
 * **[(06/20/2016, English) A brief introduction to Chapel](/assets/talks/chapel-intro-handout.pdf)**
 
 A little introduction to Chapel, with particular emphasis to its parallel programming model
