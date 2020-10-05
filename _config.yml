@@ -7,13 +7,13 @@
 
 # Site settings
 title: Andrea Francesco Iuorio
-email_work: andreafrancesco.iuorio@gmail.com
+email_work: andrea@iuorio.eu
 #email_personal: aa
 description: > # this means to ignore newlines until "baseurl:"
   Computer scientist and software developer,
   enjoys solving problems and eating pizza.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://afiuorio.github.io" # the base hostname & protocol for your site
+url: "https://af.iuorio.eu" # the base hostname & protocol for your site
 github_username: afiuorio
 linkedin_username: afiuorio
 
