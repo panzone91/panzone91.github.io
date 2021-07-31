@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Thoughts on open source and software preservation"
+date:   2021-07-31 14:15:00 +0200
+categories: opensource videogame
+excerpt_separator: <!--more-->
+---
+A couple of weeks ago I bought the [Game Engine Black Book: Wolfenstein 3D](https://fabiensanglard.net/gebbwolf3d/) book and I'm really enjoying it.<!--more--> The book explores the history behind the development and the implementation of Wolfenstein 3D, which is considered to be the grandfather of the First Person Shooter genre. It's a great book and if one has an interest in the history of computer science and/or videogames it's an excelent reading. 
+
+In the first chapter of the book there is this sentence that really resonated with me:
+
+> (Opening the source code)... allowed the software to live long after the target hardware and operating system disappered. With access to the source, programmers were able to mantain and port the engine to new hardware and operating systems. Twenty years after the release of Wolfenstein 3D, you can still play the game on anything with a CPU, some RAM, and a framebuffer.
+
+This sentence made me think how much important the open source movement is for software preservation.
+In 1995 Id Software released [the source code](https://github.com/id-Software/wolf3d) of the game. While I was reading the book I wanted to replay the game itself for the 5435th time so I took my copy which doesn't run on my modern Linux machine (actually, the game itself never had an official Linux version). Thankfully there are a lot of source ports, modern forks and reimplementations of the original source code from 1995 that can be compiled for modern systems. I downloaded one of them, compiled it and ten minutes later I was escaping from Castle Wolfenstein with a couple of quality-of-life features the original didn't had like support for my monitor's resolution. This is honestly incredible: thanks to the work of the community and fans of the game I'm still able to play a game from 30 years ago which otherwise would be impossible for me to use except by using bad solutions like emulation and without much needed QoL features.
+
+It's very difficult to show a non-techincal person the importance of the open source model since its main benefit (being able to explore the source code and change it) is not useful, at least in a direct way. However the fact that by open sourcing a software we can help to preserve it and making it usable in the future is a benefit that is easy to understand. We, as computer scientists and developers, should do more to present the issue of software preservation and the advantages of an open source model so that anyone can understand why they should care that the software they are using is open sourced.
+
+The release of the source code under a decent licence is not, alone, enough to avoid software rot. The source code of Wolfenstein 3D released in 1995 isn't compilable today ([or is it?](https://fabiensanglard.net/Compile_Like_Its_1992/)). It's only thanks to the community that today I'm able to still play this game, the same community the mantained the source code adding support for modern systems and features. However the community was able to do so only because, in July 1995, Id Software released the source code of the game: because to their decision the community had the possibility to help the game survives these decades.
+
+While not common, we have examples of game developers releasing the source code of commercial games, like Doom and Arx Fatalis. In the last decade we had a reduction of these releases (even by Id Software: I'm still waiting for the source code of Rage) and it's a shame. Sure, there are other possibilities, like the [recent reverse engineering of Super Mario 64](https://github.com/n64decomp/sm64) but these kind of works are much more difficult. Emulation is often a bad solution for preservation even if it can the only one on some cases: emulators are extremely important but they are only an approximation of the real hardware since the original documentation and specifics aren't public. I really hope we can move to a world where, after support ends if necessary, we can have the public release of the source code of software and games so that can be mantained and preserved by those who care about them.
