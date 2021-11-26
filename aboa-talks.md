@@ -6,6 +6,10 @@ permalink: /talks/
 
 This page contains the materials (slides, source codes) I've used during my lectures and seminaries.
 
+* **[(26/11/2021, English) CTFs: Exploting for fun and profit ](/assets/talks/abellino_aiuorio_ctf_welld.pdf)**
+
+Presentation for a tech lunch where, using CTF challanges, we showed how common programming mistakes can be used to exploit our applications.
+
 * **[(13/12/2019, Italian) Panzgb - a Gameboy emulator](/assets/talks/aiuorio_panzgb_welld.pdf)**
 
 Presentation for a tech lunch where, using [my gameboy emulator](https://github.com/panzone/panzgb), I've introduces some basic concepts about the development of emulators and low-level programming.
