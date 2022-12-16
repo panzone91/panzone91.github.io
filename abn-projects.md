@@ -12,7 +12,7 @@ panz-c8 is a simple emulator for the CHIP-8 system, written in C.
 
 panz-c8 is licensed under the MIT license.
 
-# **[panz-gb](https://gitlab.com/panzone/panz-gb)**
+# **[panz-gb](https://gitlab.com/panzone/panzgb)**
 
 panz-gb is an emulator for the Gameboy system. The emulator is written in C and it tries to be as simple and understandable as possible without sacrificing compatibility and accuracy.
 
