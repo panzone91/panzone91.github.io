@@ -6,19 +6,19 @@ permalink: /projects/
 
 This page presents my public personal projects.
 
-# **[panz-c8](https://gitlab.com/panzone/panz-c8)**
+# **[panz-c8](https://github.com/panzone91/panz-c8)**
 
 panz-c8 is a simple emulator for the CHIP-8 system, written in C.
 
 panz-c8 is licensed under the MIT license.
 
-# **[panz-gb](https://gitlab.com/panzone/panzgb)**
+# **[panz-gb](https://github.com/panzone91/panzgb)**
 
 panz-gb is an emulator for the Gameboy system. The emulator is written in C and it tries to be as simple and understandable as possible without sacrificing compatibility and accuracy.
 
 panz-gb is licensed under the MIT license.
 
-# **[panz-crypto](https://gitlab.com/panzone/panz-crypto)**
+# **[panz-crypto](https://github.com/panzone91/panz-crypto)**
 
 panz-crypto is a collection of cryptographic algorithms and attacks I've made during my cryptographic studies.
 

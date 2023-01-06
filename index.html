@@ -11,33 +11,41 @@ layout: default
   </div>
   <div class="column right">
     <p align="justify">I'm a computer scientist and a software developer. My main areas of interest are software security, reverse engineering,
-    programming languages development, cryptography and system administration but I enjoy every aspects of this field. I think it's important
-    to understand how things work and I try my best to investigate and to disclose how something works.</p><br>
+    programming languages development, cryptography and system administration. In my free time I also play a lot of Magic: The Gathering and working on my podcasts!</p><br>
   </div>
 </div>
 </p>
 <p>
- <b>Quick resume:</b>
- <ul>
-    <li>In 2021 I've worked on two startups: <a href="https://tellthehotel.com/">TellTheHotel</a> and <a href="https://fybra.co/">Fybra</a></li>
-	    
-    <li>In 2020 I've continued my work in <a href="https://www.welld.ch">WellD</a> where I've worked on an Operation Center software for EV charging units</li>
+    <h1 class="page-heading">Quick resume:</h1>
 
-    <li>In 2019 I've worked in <a href="https://www.welld.ch">WellD</a> on several energy-related software projects</li>
+    <ul>
+    <li>I'm currently working in <a href="https://www.welld.ch">WellD</a> as a software developer on several products</li>
 
-    <li>In 2018 I've obtained my MSc. in Computer Science with the thesis <a href="/assets/thesis_afi_msc.pdf">Exploiting SHA-1 weaknesses to speed up PBKDF2</a>.</li>
-  
-    <li>In 2017 I've participated to the Google Summer Of Code as a mentor for the Chapel programming language and I've worked as a master student in the <a href="http://www.club.di.unimi.it/">CLUB</a> laboratory
-      on several cryptography-related projects, following students and working on my master thesis.</li>
-  
-    <li>In 2016 I've participated to the <a href="https://summerofcode.withgoogle.com/projects/#6738560711393280">Google Summer of Code</a> under the <a href="http://chapel.cray.com">Chapel programming language</a>, working on several improvements on the language's compiler and runtime.</li>
+    <li>I've obtained my M.Sc. in Computer Science with the thesis <a href="/assets/thesis_afi_msc.pdf">Exploiting SHA-1 weaknesses to speed up PBKDF2</a>.</li>
 
-    <li>In 2015 I've obtained my BSc. in Computer Science with the thesis <a href="/assets/thesis_afi_bsc.pdf">Portable and modular exceptions in Neverlang2</a>.</li>
+    <li>I've participated in the Google Summer Of Code programs 3 times, two as a student and one as a mentor. I've contributed to the
+        <a href="http://www.mono-project.com/community/google-summer-of-code/">Mono Project</a> working on SGen and I've contributed to the
+        <a href="http://chapel.cray.com">Chapel programming language</a> working on the compiler and runtime.
+    </li>
 
-    <li>In 2014 I've participated to the <a href="https://www.google-melange.com/gsoc/project/details/google/gsoc2014/panzone/5717271485874176">Google Summer of Code</a>
-      under the <a href="http://www.mono-project.com/community/google-summer-of-code/">Mono Project</a>, working on SGen, the Mono garbage collector.</li>
-    
-    <li>In 2013 I've worked as an undergraduate student in the <a href="https://cazzola.di.unimi.it/adapt-lab.html">Adapt Lab</a> creating a modular exception handling system for <a href="https://cazzola.di.unimi.it/neverlang.html">Neverlang</a></li>
-  </ul>
+    <li>I've obtained my B.Sc. in Computer Science with the thesis <a href="/assets/thesis_afi_bsc.pdf">Portable and modular exceptions in Neverlang2</a>.</li>
+
+    <li>While I was a student I was part of the <a href="https://cazzola.di.unimi.it/adapt-lab.html">Adapt Lab</a>, creating a modular exception handling system for <a href="https://cazzola.di.unimi.it/neverlang.html">Neverlang</a>,
+        and I was a student in the <a href="http://www.club.di.unimi.it/">CLUB</a> laboratory on several cryptography-related projects, following students and working on my master thesis.</li>
+ </ul>
+
+    <h1 class="page-heading">Latest post:</h1>
+
+    <ul class="post-list">
+        {% for post in site.posts limit:1%}
+        <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            {{ post.excerpt }}
+        </li>
+        {% endfor %}
+    </ul>
 </p>
 </div>
